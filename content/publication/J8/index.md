@@ -1,0 +1,21 @@
+---
+abstract: "<div class=text-justify>The rapid destruction of the planet's biodiversity has prompted the nations of the world to set a target of achieving a significant reduction in the rate of loss of biodiversity by 2010. However, we do not yet have an adequate way of monitoring progress towards achieving this target. Here we present a method for producing indices based on the IUCN Red List to chart the overall threat status (projected relative extinction risk) of all the world's bird species from 1988 to 2004. Red List Indices (RLIs) are based on the number of species in each Red List category, and on the number changing categories between assessments as a result of genuine improvement or deterioration in status. The RLI for all bird species shows that their overall threat status has continued to deteriorate since 1988. Disaggregated indices show that deteriorations have occurred worldwide and in all major ecosystems, but with particularly steep declines in the indices for Indo-Malayan birds (driven by intensifying deforestation of the Sundaic lowlands) and for albatrosses and petrels (driven by incidental mortality in commercial longline fisheries). RLIs complement indicators based on species population trends and habitat extent for quantifying global trends in the status of biodiversity. Their main weaknesses are that the resolution of status changes is fairly coarse and that delays may occur before some status changes are detected. Their greatest strength is that they are based on information from nearly all species in a taxonomic group worldwide, rather than a potentially biased subset. At present, suitable data are only available for birds, but indices for other taxonomic groups are in development, as is a sampled index based on a stratified sample from all major taxonomic groups.</div>"
+authors:
+- Butchart SH, Stattersfield AJ, Bennun LA, Shutes SM, Akçakaya HR, Baillie JE, Stuart SN, Hilton-Taylor C, Mace GM.
+date: "2004-12-01T00:00:00Z"
+doi: ""
+featured: false
+publication: ""
+publication_short: ""
+publication_types:
+- "2"
+publishDate: "2017-01-01T00:00:00Z"
+slides:
+summary:
+tags:
+- Biodiversity
+title: "Measuring global trends in the status of biodiversity: red list indices for birds."
+url_source: 'https://www.ncbi.nlm.nih.gov/pubmed/15510230'
+---
+
+
