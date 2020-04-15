@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
 title = "Activismo"
-subtitle = ""
+subtitle = "Organizaciones y lucha ambiental"
 
 [content]
   # Page type to display. E.g. project.
