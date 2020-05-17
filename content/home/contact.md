@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contacto"
-subtitle = "Somos profesores e investigadores de CRIMUEX.                Coordina: Dra. Lorea Arenas"
+subtitle = "Somos profesores e investigadores de CRIMUEX.<br>                Coordina: Dra. Lorea Arenas"
 
 # Automatically link email and phone?
 autolink = true
