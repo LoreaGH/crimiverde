@@ -50,5 +50,5 @@ subtitle = "<div class=text-justify>La Criminología verde se centra en el estud
  css_class = ""
 +++
 
-   <div class=text-justify>ÁREAS DE INVESTIGACIÓN: Cambio climático, criminología eco-global, fraude alimentario, deforestación, residuos ilegales, criminología verde cultural, maltrato animal, ecovictimización, criminología rural y criminología verde, feminismo y criminología verde, teorías y metodologías de investigación.</div>.
+   <div class=text-justify>ÁREAS DE INVESTIGACIÓN: Cambio climático, criminología eco-global, fraude alimentario, deforestación, residuos ilegales, criminología verde cultural, maltrato animal, ecovictimización, criminología rural y criminología verde, feminismo y criminología verde, teorías y metodologías de investigación.</div>
 
