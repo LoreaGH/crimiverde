@@ -5,11 +5,11 @@ address:
   country: United Kingdom
   postcode: "NE1 8ST"
   region: 
-  street: City Campus East 1 CCE1-402 (TLT), Newcastle upon Tyne
+  street: City Campus East 1 CCE1-402 TLT, Newcastle upon Tyne
 all_day: false
 authors: []
 date: "2020-01-16T10:00:00Z"
-date_end: "2020-01-16T10:00:00Z"
+date_end: "2020-01-16T16:00:00Z"
 event: Academic Theme Conference
 event_url: https://www.eventbrite.co.uk/e/green-criminology-in-the-anthropocene-tickets-80633606287#
 featured: false
@@ -25,9 +25,9 @@ location:
 math: true
 projects:
 
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-01-16T10:00:00Z"
 slides:
-summary: Confirmed Speakers:  Kate Stewart, David Rodriguez Goyes, Damien Short.
+summary: Confirmed Speakers. Kate Stewart, David Rodriguez Goyes, Damien Short.
 tags: []
 title: Green Criminology in the Anthropocene
 url_code: ""
