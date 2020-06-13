@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- Lorea Arenas
 categories:
 date: "2020-06-05T00:00:00Z"
 draft: false
