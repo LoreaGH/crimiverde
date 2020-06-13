@@ -1,20 +1,17 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac
-  convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
-  faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
-  eu, pulvinar tempor diam.
+abstract: 
 address:
-  city: Stanford
-  country: United States
-  postcode: "94305"
-  region: CA
-  street: 450 Serra Mall
+  city: New Castle, Northumbria University.
+  country: United Kingdom
+  postcode: "NE1 8ST"
+  region: 
+  street: City Campus East 1 CCE1-402 (TLT), Newcastle upon Tyne
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2020-01-16T10:00:00Z"
+date_end: "2020-01-16T10:00:00Z"
 event: Academic Theme Conference
-event_url: https://example.org
+event_url: https://www.eventbrite.co.uk/e/green-criminology-in-the-anthropocene-tickets-80633606287#
 featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -24,29 +21,20 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
-location: Source Themes HQ
+location: 
 math: true
 projects:
-- internal-project
+
 publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: An example talk using Academic's Markdown slides feature.
+slides:
+summary: Confirmed Speakers:  Kate Stewart, David Rodriguez Goyes, Damien Short.
 tags: []
-title: Example Talk
+title: Green Criminology in the Anthropocene
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-{{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+<div class=text-justify>The present period is defined by environmental degradation. To name a few examples, rates of sea level rise, ice loss and extreme weather – all indicators of climate change – accelerated between 2015 and 2019. Even under existing Paris Agreement commitments, temperatures over the Arctic Ocean will increase 3-5°C by mid-century compared to 1986-2005 levels, threatening to derail global climate goals. Worldwide biodiversity loss has also accelerated, with 1 million animal and plant species now at risk of extinction, 92% of the earth’s population are exposed to unsafe levels of air pollution, and under a ‘business as usual’ scenario’ ocean acidification is expected to reach levels not seen in 14 million years.<br><br>
+It is in this context of widespread, human-induced environmental harm that criminology – as the discipline primarily concerned with questions of deviance and social control – finds itself particularly relevant. As such, this conference aims to spark debate in criminology about how best to respond to contemporary and emerging environmental crimes and harms at a time when existing responses appear ineffective.</div>
