@@ -1,5 +1,5 @@
 ---
-date: "2022-05-27T00:00:00Z"
+date: "2022-05-01 T00:00:00Z"
 external_link: ""
 image:
   caption: Photo by rawpixel on Unsplash
@@ -10,12 +10,12 @@ links:
   #name: Follow
   #url: https://twitter.com/georgecushen
 slides:
-summary: Más
+summary: Entrar
 tags:
 - Climate change
 - Rural criminology
 - Waste
-title: Proyecto VIEX IB20050
+title: Proyecto VIEX
 url_code: ""
 url_pdf: ""
 url_slides: ""
