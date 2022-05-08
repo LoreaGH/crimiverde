@@ -7,12 +7,12 @@
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 20
+  weight = 70
 
 [[main]]
   name = "Publicaciones"
   url = "#publications"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Proyecto VIEX"
@@ -22,17 +22,17 @@
 [[main]]
   name = "Recursos"
   url = "#recursos"
-  weight = 50
+  weight = 30
 
 [[main]]
   name = "Activismo"
   url = "#activismo"
-  weight = 60
+  weight = 50
 
 [[main]]
   name = "Eventos"
   url = "#talk"
-  weight = 70
+  weight = 60
 
 [[main]]
   name = "Contacto"
