@@ -16,7 +16,7 @@ subtitle: 'Illegal trafficking'
 summary: 
 tags:
 - Illegal trafficking
-- Ecofeminism
+- Wildlife trafficking
 title: 'Serpiente asiática como animal de compañía'
 ---
 
