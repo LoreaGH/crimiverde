@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contacto"
-subtitle = "Somos profesores e investigadores de [GEXCRIM](https://twitter.com/GEXCRIM)<br>                                Coordina: Dra. [Lorea Arenas](www.lorearenas.com)"
+subtitle = "Dra. [Lorea Arenas](www.lorearenas.com)"
 
 # Automatically link email and phone?
 autolink = true
