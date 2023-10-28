@@ -7,5 +7,5 @@ image:
 summary: Ecologistas en acción
 tags:
 - Demo
-title: Ecologistas en acción
+title: Ecologistas en Acción
 ---
