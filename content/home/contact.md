@@ -6,8 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contacto"
-subtitle = "Dra. [Lorea Arenas García](www.lorearenas.com)<br
-            Contratada doctora en Criminología en la Universidad de Extremadura"
+subtitle = [Lorea Arenas García](www.lorearenas.com)
 
 # Automatically link email and phone?
 autolink = true
