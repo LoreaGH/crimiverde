@@ -4,7 +4,7 @@ external_link: https://www.ecologistasenaccion.org
 image:
   caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
-summary: Ecologistas en acción
+summary: Ecologistas en Acción
 tags:
 - Demo
 title: Ecologistas en Acción
