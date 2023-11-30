@@ -20,8 +20,8 @@ title = "**Criminología Verde**"
   # color = "#1D976C"
   
   # Background gradient.
-  gradient_start = "#F2F2F2"
-  gradient_end = "#1e130c"
+  # gradient_start = "#F2F2F2"
+  # gradient_end = "#1e130c"
   
   # Background image.
     image = "background.jpg"  # Name of image in `static/img/`.
