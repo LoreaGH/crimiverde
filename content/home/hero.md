@@ -44,3 +44,6 @@ title = "**Criminología Verde**"
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<div class=text-justify><p>La Criminología Verde se centra en el estudio de diferentes tipos de daño ambiental y describe su prevalencia temporal y geográfica, analiza críticamente las causas y consecuencias de tales daños, y reflexiona sobre cómo los cuerpos normativos, los sistemas de justicia penal, los individuos y los grupos responden, o deberían responder, a tales daños (Brisman & South, 2015; White & Graham, 2015).</p><br>
+
+<p>ÁREAS DE INVESTIGACIÓN: Cambio climático, criminología eco-global, fraude alimentario, deforestación, residuos ilegales, criminología verde cultural, maltrato animal, ecovictimización, criminología rural y criminología verde, feminismo y criminología verde, teorías y metodologías de investigación.</p></div>

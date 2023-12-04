@@ -14,31 +14,26 @@
   name = "Proyecto VIEX"
   url = "#proyecto"
   weight = 30
-
-[[main]]
-  name = "Mapa VIEX"
-  url = "#proyecto"
-  weight = 40
   
 [[main]]
   name = "Recursos"
   url = "#recursos"
-  weight = 50
+  weight = 40
 
 [[main]]
   name = "Activismo"
   url = "#activismo"
-  weight = 60
+  weight = 50
 
 [[main]]
   name = "Eventos"
   url = "#talks"
-  weight = 70
+  weight = 60
 
 [[main]]
   name = "Contacto"
   url = "#contact"
-  weight = 80
+  weight = 70
 
 
 # Link to a PDF of your resume/CV from the menu.
