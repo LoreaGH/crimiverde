@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "criminologíaverde.com"
-subtitle = "<div class=text-justify>La Criminología Verde se centra en el estudio de diferentes tipos de daño ambiental y describe su prevalencia temporal y geográfica, analiza críticamente las causas y consecuencias de tales daños, y reflexiona sobre cómo los cuerpos normativos, los sistemas de justicia penal, los individuos y los grupos responden, o deberían responder, a tales daños (Brisman & South, 2015; White & Graham, 2015).</div>"
+subtitle = "<div class=text-justify>La Criminología verde se centra en el estudio de diferentes tipos de daño ambiental y describe su prevalencia temporal y geográfica, analiza críticamente las causas y consecuencias de tales daños, y reflexiona sobre cómo los cuerpos normativos, los sistemas de justicia penal, los individuos y los grupos responden, o deberían responder, a tales daños (Brisman & South, 2015; White & Graham, 2015).</div>"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
