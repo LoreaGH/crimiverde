@@ -6,7 +6,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 15  # Order that this section will appear.
 
 title = "Proyecto VIEX"
 subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
@@ -42,5 +42,5 @@ subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
  # CSS class.
 +++
 
-   <div class=text-justify>El proyecto de I+D+i de la Junta de Extremadura denominado Teledetección y análisis ambiental de vertederos ilegales, tiene como objetivo principal la detección a partir de técnicas de análisis de imágenes de puntos de vertidos en la naturaleza y de su posterior análisis.<br> <img src='img/lego.jpg' width='275' /> <br> <p>Asimismo, el proyecto dispone de un <a href='#mviex'>mapa interactivo</a> en el que se pueden consultar los puntos de vertido identificados y desde el cuál cualquier ciudadano o ciudadana puede identificar puntos de vertido que todavía no hayan sido identificados. </p></div>
+   <div class=text-justify>El proyecto de I+D+i de la Junta de Extremadura denominado Teledetección y análisis ambiental de vertederos ilegales, tiene como objetivo principal la detección a partir de técnicas de análisis de imágenes de puntos de vertidos en la naturaleza y de su posterior análisis.<br> <img src='img/logos/logo_proyecto.JPG' width='275' /> <br> <p>Asimismo, el proyecto dispone de un <a href='#mviex'>mapa interactivo</a> en el que se pueden consultar los puntos de vertido identificados y desde el cuál cualquier ciudadano o ciudadana puede identificar puntos de vertido que todavía no hayan sido identificados. </p></div>
 
