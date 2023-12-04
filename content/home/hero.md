@@ -6,7 +6,6 @@ active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
 title = "**Criminología Verde**"
-subtitle = "**Análisis de crímenes y daños ecológicos**"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 # hero_media = "hero-academic.png"
@@ -39,6 +38,7 @@ subtitle = "**Análisis de crímenes y daños ecológicos**"
 #   Remove a link/note by deleting a cta/note block.
 
 +++
+"**Análisis de crímenes y daños ecológicos**"
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
