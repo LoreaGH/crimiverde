@@ -9,20 +9,20 @@
   name = "Publicaciones"
   url = "#publications"
   weight = 20
-  
-[[main]]
-  name = "Recursos"
-  url = "#recursos"
-  weight = 30
 
 [[main]]
   name = "Proyecto VIEX"
   url = "#proyecto"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Mapa VIEX"
   url = "#proyecto"
+  weight = 40
+  
+[[main]]
+  name = "Recursos"
+  url = "#recursos"
   weight = 50
 
 [[main]]
@@ -32,7 +32,7 @@
 
 [[main]]
   name = "Eventos"
-  url = "#talk"
+  url = "#talks"
   weight = 70
 
 [[main]]
