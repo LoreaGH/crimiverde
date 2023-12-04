@@ -33,7 +33,7 @@ subtitle = "<div class=text-justify>La Criminología verde se centra en el estud
   #  image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-    text_color_light = flase  
+    text_color_light = false  
   
 [advanced]
  # Custom CSS. 
