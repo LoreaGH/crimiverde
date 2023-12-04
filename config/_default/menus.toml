@@ -6,13 +6,13 @@
 
 
 [[main]]
-  name = "Publicaciones"
-  url = "#publications"
-  weight = 20
-
-[[main]]
   name = "Proyecto VIEX"
   url = "#proyecto"
+  weight = 20
+  
+[[main]]
+  name = "Publicaciones"
+  url = "#publications"
   weight = 30
   
 [[main]]
