@@ -9,31 +9,36 @@
   name = "Publicaciones"
   url = "#publications"
   weight = 20
-
-[[main]]
-  name = "Proyecto VIEX"
-  url = "#projects"
-  weight = 40
-
+  
 [[main]]
   name = "Recursos"
   url = "#recursos"
   weight = 30
 
 [[main]]
+  name = "Proyecto VIEX"
+  url = "#proyecto"
+  weight = 40
+
+[[main]]
+  name = "Mapa VIEX"
+  url = "#proyecto"
+  weight = 50
+
+[[main]]
   name = "Activismo"
   url = "#activismo"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "Eventos"
   url = "#talk"
-  weight = 60
+  weight = 70
 
 [[main]]
   name = "Contacto"
   url = "#contact"
-  weight = 70
+  weight = 80
 
 
 # Link to a PDF of your resume/CV from the menu.
