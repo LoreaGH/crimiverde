@@ -22,7 +22,7 @@ subtitle = "<div class=text-justify>La Criminología verde se centra en el estud
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-      color = "23252f"
+      color = "#23252f"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

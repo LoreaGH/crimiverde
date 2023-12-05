@@ -22,7 +22,7 @@ subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-      color = "23252f"
+      color = "#23252f"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
