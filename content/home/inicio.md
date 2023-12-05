@@ -45,5 +45,6 @@ subtitle = "<div class=text-justify><p style="text-align:center">**Análisis de 
  
  # CSS class.
 +++
-<div class=text-justify><p style="text-align:center">CRIMINOLOGÍA VERDE.</p></div>
+<div style="text-align:center;font-family:sans-serif"><h1>Criminología verde</h1>
+<br><h2>Análisis de crímenes y daños ecológicos</h2></div>
 
