@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mapa</title>
+ 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	
+	<style>
+		html,body, #map {
+			height: 100%;
+    		}
+		body {
+			margin: 0;
+			padding:0;
+			background-color:#23252f;
+			color:white;
+		}
+
+		p#cabecera {
+			margin-bottom: 20px;
+		}
+
+		p#confirmacion {
+			margin-top: 20px;
+			margin-bottom: 0px;
+		}
+
+		label {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		form {
+			text-align:center;
+		}
+
+
+		#dfor {
+			padding: 25px;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<div id="dfor">
+		<p id="cabecera">1. Indique en el mapa el punto en el que existen residuos</p>
+		<div class="d-grip gap-2">
+			<button type="button" class="btn btn-success" id="b_localizar">Usar su localización</button>
+			<button type="button" class="btn btn-success" id="b_borrar">Borrar punto</button>
+		</div>
+		<p id="confirmacion">No ha seleccionado ningún punto en el mapa</p>
+		<form name="datos">
+			<label for="listado" action="https://formspree.io/f/mrgwwlao" method="POST">2. Seleccione la tipología de los residuos vertidos</label>
+			<br>
+			<select id="listado" name="tipo_residuo">
+				<option value="" selected="" disabled="">Tipo de residuo...</option>
+				<option value="HO">Hormigón</option>
+				<option value="MC">Materiales cerámicos</option>
+				<option value="YP">Yeso, escayola o pladur</option>
+				<option value="PN">Plástico, pvc o neumáticos</option>
+				<option value="AM">Amianto</option>
+				<option value="RM">Residuos metálicos</option>
+				<option value="RM">Residuos urbanos (basura)</option>
+				<option value="OT">Otros</option>
+			</select>
+			<br>
+			<input type="hidden" id="vcoord" required="" name="valor_coordenadas" value="">
+			<label for="b_envio">3. Envíe su aportación</label>
+			<br>
+			<input class="btn btn-success" id="b_envio" type="submit" value="Enviar">	
+		</form>
+	</div>
+	<div id="map"></div>
+	<script type="text/javascript">
+		var map=L.map('map').setView([40,-5],10);
+		var osm= L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+		var pnoa=L.tileLayer.wms("https://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&",{
+			layers:"OI.OrthoimageCoverage",
+			format:'image/jpeg',
+			transparent:true,
+			version:'1.3.0',
+			attribution:"CC BY 4.0 scne.es",
+		});
+		var marcador;
+		function buscarLocali(e){
+			marcador=L.marker(e.latlng).addTo(map);
+			document.getElementById('confirmacion').innerHTML='Punto seleccionado';
+			document.getElementById('vcoord').value=e.latlng;
+			console.log(document.getElementById('vcoord').value);
+		};
+		function errorLocali(e){
+			alert("No se ha podido obtener su ubicación.");
+		};
+		map.on('locationfound',buscarLocali);
+		map.on('locationerror',errorLocali);
+		var boton_localizar=document.getElementById('b_localizar');
+		boton_localizar.onclick=function(){
+			if(marcador && map.hasLayer(marcador)){
+				alert("Ya hay un punto seleccionado. Para seleccionar un punto en su ubicación primero pulse el botón Borrar punto");
+			} else{
+				map.locate({setView:true,maxZoom:14});
+			}
+			};
+		map.on('click', function(e){
+			var coordenadas=e.latlng;
+			if(!marcador){
+				marcador=L.marker(coordenadas).addTo(map);
+				document.getElementById('confirmacion').innerHTML='Punto seleccionado';
+				document.getElementById('vcoord').value=coordenadas;
+			} else{
+				if(map.hasLayer(marcador)){
+					alert("Ya ha seleccionado un punto. Para seleccionar un nuevo punto primero pulse el botón Borrar punto");
+				} else{
+					marcador=L.marker(coordenadas).addTo(map);
+					document.getElementById('vcoord').value=coordenadas;
+					document.getElementById('confirmacion').innerHTML='Punto seleccionado';
+				}
+			}
+
+		});
+		var boton_borrar=document.getElementById('b_borrar');
+		boton_borrar.onclick=function(){
+			if(marcador && map.hasLayer(marcador)){
+				map.removeLayer(marcador);
+				document.getElementById('vcoord').value="";
+				document.getElementById('confirmacion').innerHTML='No ha seleccionado ningún punto';				
+			} else {
+				alert("No hay ningún punto seleccionado.");
+			}
+		};
+		var baseLayers={
+			"Mapa base (OpenStreetMap)":osm,
+			"Ortofoto PNOA":pnoa,
+		};
+		var overlays={
+		};
+		L.control.layers(baseLayers,overlays,{collapsed:true}).addTo(map);
+    </script>
+</body>
+</html>

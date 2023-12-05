@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "**Criminología verde**"
-subtitle = "**Análisis de crímenes y daños ecológicos.**"
+title = ""
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -45,6 +45,6 @@ subtitle = "**Análisis de crímenes y daños ecológicos.**"
  
  # CSS class.
 +++
-<div style="text-align:center;font-family:Montserrat,sans-serif;font-weight:bold;font-size:2.25rem"><p>Criminología verde</p>
-<br><p>Análisis de crímenes y daños ecológicos</p></div>
+<div style="text-align:center;font-family:Montserrat,sans-serif;font-weight:bold"><p style="font-size:2.25rem">Criminología verde</p>
+<p style="font-size:1rem;margin-top:2px">Análisis de crímenes y daños ecológicos</p></div>
 
