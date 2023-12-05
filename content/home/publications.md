@@ -5,7 +5,7 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 35  # Order that this section will appear.
 
 title = "Publicaciones"
 subtitle = "Artículos, informes, libros, capítulos de libro, conferencias...y demás material de interés"
@@ -54,7 +54,7 @@ subtitle = "Artículos, informes, libros, capítulos de libro, conferencias...y 
   
   # Background image.
    image = "arboles.jpg"  # Name of image in `static/img/`.
-   image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+   image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
     text_color_light = true  
