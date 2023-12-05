@@ -42,4 +42,4 @@ subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
  # CSS class.
 +++
 
-<div class=text-justify>El presente apartado permite visualizar la posición de los puntos de vertido identificados y establecer nuevos puntos de vertidos. <br><br> <iframe style="border:none;" width='100%' height='700' src='m_base/Mapa_basico.html'></iframe></div>
+<div class=text-justify>El presente apartado permite visualizar la posición de los puntos de vertido identificados y establecer nuevos puntos de vertidos. <br><br> <iframe style="border:none;" width='100%' height='700' src='m_base/Mapa_proyecto.html'></iframe></div>
