@@ -45,6 +45,6 @@ subtitle = "**Análisis de crímenes y daños ecológicos.**"
  
  # CSS class.
 +++
-<div style="text-align:center;font-family:sans-serif"><h1>Criminología verde</h1>
+<div style="text-align:center;font-family:sans-serif;font-weight:bolder"><h1>Criminología verde</h1>
 <br><h2>Análisis de crímenes y daños ecológicos</h2></div>
 
