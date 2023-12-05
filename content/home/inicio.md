@@ -37,7 +37,7 @@ subtitle = "**Análisis de crímenes y daños ecológicos**"
     
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["50px", "0", "50px", "0"]
+  padding = ["250px", "0", "250px", "0"]
   
 [advanced]
  # Custom CSS. 
