@@ -37,7 +37,7 @@ subtitle = ""
     
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-      padding = ["0px", "0", "0px", "0"]
+      padding = ["5px", "0", "5px", "0"]
   
 [advanced]
  # Custom CSS. 
@@ -46,7 +46,7 @@ subtitle = ""
  # CSS class.
 +++
 
-   <div class=text-justify><p style="color:#14CF14">criminologíaverde.com</p><br>
+   <div class=text-justify><h1 style="color:#14CF14">criminologíaverde.com</h1><br>
    <p>La Criminología verde se centra en el estudio de diferentes tipos de daño ambiental y describe su prevalencia temporal y geográfica, analiza críticamente las causas y consecuencias de tales daños, y reflexiona sobre cómo los cuerpos normativos, los sistemas de justicia penal, los individuos y los grupos responden, o deberían responder, a tales daños (Brisman & South, 2015; White & Graham, 2015).</p><br> 
    <p>ÁREAS DE INVESTIGACIÓN: Cambio climático, criminología eco-global, fraude alimentario, deforestación, residuos ilegales, criminología verde cultural, maltrato animal, ecovictimización, criminología rural y criminología verde, feminismo y criminología verde, teorías y metodologías de investigación.</p></div>
 
