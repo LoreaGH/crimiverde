@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Proyecto VIEX"
+title = "Proyecto VIEX IB20050 2021-2024"
 subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
 
 [design]
