@@ -42,4 +42,4 @@ subtitle = ""
  # CSS class.
 +++
 
-<div class=text-justify>El Mapa VIEX permite identificar los puntos de vertido de residuos no autorizados en Extremadura. Gracias a este mapa y a la colavoración ciudadana en su elaboración se pueden conocer los impactos medioambientales en cualquier punto del punto de la región extremeña. <br><br> <iframe style="border:none;" width='100%' height='815' src='m_base/Mapa_proyecto.html'></iframe></div>
+<div class=text-justify>El Mapa VIEX permite identificar los puntos de vertido de residuos no autorizados en Extremadura. Gracias a este mapa y a la colaboración ciudadana en su elaboración se pueden conocer los impactos medioambientales en cualquier punto del punto de la región extremeña. <br><br> <iframe style="border:none;" width='100%' height='850' src='m_base/Mapa_proyecto.html'></iframe></div>
