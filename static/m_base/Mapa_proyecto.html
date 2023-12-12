@@ -34,9 +34,14 @@
 			margin-bottom: 0px;
 		}
 
-		label {
+		label.segundo {
 			margin-top: 20px;
 			margin-bottom: 20px;
+		}
+
+		label.tipos {
+			margin-top: 5px;
+			margin-bottom: 5px;
 		}
 
 		form {
@@ -47,6 +52,12 @@
 		#dfor {
 			padding: 25px;
 			text-align:center;
+		}
+
+		#selector {
+			margin:0;
+			padding-left:40%;
+			text-align:left;
 		}
 	</style>
 </head>
@@ -61,22 +72,28 @@
 		</div>
 		<p id="confirmacion">No ha seleccionado ningún punto en el mapa</p>
 		<form name="datos" action="https://formspree.io/f/mrgwwlao" method="POST">
-			<label for="listado">2. Seleccione el tipo de residuo</label>
+			<label class="segundo">2. Seleccione el tipo de residuo (todos los que considere)</label>
 			<br>
-			<select id="listado" name="tipo_residuo">
-				<option value="" selected="" disabled="">Tipo de residuo...</option>
-				<option value="HO">Hormigón</option>
-				<option value="MC">Materiales cerámicos</option>
-				<option value="YP">Yeso, escayola o pladur</option>
-				<option value="PN">Plástico, pvc o neumáticos</option>
-				<option value="AM">Amianto</option>
-				<option value="RM">Residuos metálicos</option>
-				<option value="RM">Residuos urbanos (basura)</option>
-				<option value="OT">Otros</option>
-			</select>
-			<br>
+			<fieldset id="selector">
+				<input type="checkbox" id="horm" name="hormigon" value="HO">
+				<label class="tipos" for="horm">Hormigón</label><br>
+				<input type="checkbox" id="mcer" name="ceramicos" value="MC">
+				<label class="tipos" for="mcer">Materiales cerámicos</label><br>
+				<input type="checkbox" id="yesop" name="yeso" value="YP">
+				<label class="tipos" for="yesop">Yeso, escayola o pladur</label><br>
+				<input type="checkbox" id="pvc" name="plastico" value="PV">
+				<label class="tipos" for="pvc">Plástico, PVC, etc</label><br>
+				<input type="checkbox" id="amian" name="amianto" value="AM">
+				<label class="tipos" for="amian">Amianto</label><br>
+				<input type="checkbox" id="rmet" name="metalicos" value="RM">
+				<label class="tipos" for="rmet">Residuos metálicos</label><br>
+				<input type="checkbox" id="basur" name="basura" value="BA">
+				<label class="tipos" for="basur">Residuos (basuras)</label><br>
+				<input type="checkbox" id="otro" name="otros" value="OT">
+				<label class="tipos" for="otro">Otros</label><br>
+			</fieldset>
 			<input type="hidden" id="vcoord" required="" name="valor_coordenadas" value="">
-			<label for="b_envio">3. Envíe su repuesta</label>
+			<label class="segundo" for="b_envio">3. Envíe su repuesta</label>
 			<br>
 			<input class="btn btn-success" id="b_envio" type="submit" value="Enviar">	
 		</form>
