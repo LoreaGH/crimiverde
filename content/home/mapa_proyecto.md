@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Mapa VIEX"
-subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -42,4 +42,4 @@ subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
  # CSS class.
 +++
 
-<div class=text-justify>El presente apartado permite visualizar la posición de los puntos de vertido identificados y establecer nuevos puntos de vertidos. <br><br> <iframe style="border:none;" width='100%' height='950' src='m_base/Mapa_proyecto.html'></iframe></div>
+<div class=text-justify>El Mapa VIEX permite identificar los puntos de vertido de residuos no autorizados en Extremadura. Gracias a este mapa y a la colavoración ciudadana en su elaboración se pueden conocer los impactos medioambientales en cualquier punto del punto de la región extremeña. <br><br> <iframe style="border:none;" width='100%' height='815' src='m_base/Mapa_proyecto.html'></iframe></div>

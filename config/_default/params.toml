@@ -98,7 +98,7 @@ directions = "Facultad de Derecho. Departamento Derecho público (2ª planta)"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "@crimiverde", link = "https://twitter.com/crimiverde"},
+  # {icon = "twitter", icon_pack = "fab", name = "@crimiverde", link = "https://twitter.com/"},
   {icon = "link", icon_pack = "fas", name = "Universidad de Extremadura", link = "https://www.unex.es"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]

@@ -42,6 +42,6 @@ subtitle = "Teledetección y análisis ambiental de vertederos ilegales"
  # CSS class.
 +++
 
-   <div class=text-justify><p>El proyecto de I+D+i de la Junta de Extremadura denominado Teledetección y análisis ambiental de vertederos ilegales, tiene como objetivo principal la detección a partir de técnicas de análisis de imágenes de puntos de vertidos en la naturaleza y de su posterior análisis.</p> <br> 
+   <div class=text-justify><p>El proyecto de I+D+i de la Junta de Extremadura denominado 'Teledetección y análisis ambiental' (IB20050) de vertederos ilegales, tiene como objetivo principal la detección a partir de técnicas de análisis de imágenes de puntos de vertidos en la naturaleza y de su posterior análisis.</p> <br> 
    <p>Asimismo, el proyecto dispone de un <a href='#mapa_proyecto'>mapa interactivo</a> en el que se pueden consultar los puntos de vertido identificados y desde el cuál cualquier ciudadano o ciudadana puede identificar puntos de vertido que todavía no hayan sido identificados. </p></div>
 
