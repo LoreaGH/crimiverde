@@ -42,4 +42,4 @@ subtitle = ""
  # CSS class.
 +++
 
-<div class=text-justify><h1 style="color:#14CF14">Mapa VIEX</h1><br> <p>El Mapa VIEX permite identificar los puntos de vertido ilegal en Extremadura. Gracias a este mapa, y a la colaboración ciudadana en su actualización, se pueden conocer los impactos medioambientales de los residuos en la región extremeña.</p> <br> <iframe style="border:none;" width='100%' height='1170' src='m_base/Mapa_proyecto.html'></iframe></div>
+<div class=text-justify><h1 style="color:#14CF14">Mapa VIEX</h1><br> <p>El Mapa VIEX permite identificar los puntos de vertido ilegal en Extremadura. Gracias a este mapa, y a la colaboración ciudadana en su actualización, se pueden conocer los impactos medioambientales de los residuos en la región extremeña.</p> <br> <iframe style="border:none;" width='100%' height='1171' src='m_base/Mapa_proyecto.html'></iframe></div>
